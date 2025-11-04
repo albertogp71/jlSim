@@ -1,5 +1,4 @@
-using Random, Statistics, Printf
-using SpecialFunctions
+using Random, Statistics, Printf, SpecialFunctions
 
 # Function to simulate BPSK transmission with AWGN
 function bpsk_simulation(num_bits::Int, EbN0_dB::Float64)
